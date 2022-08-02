@@ -1,7 +1,7 @@
+const nodeExternals = require("webpack-node-externals");
+
 module.exports = {
-  entry: "./script.js",
-  output: {
-    path: __dirname,
-    filename: "build.js",
-  },
+  target: "node",
+  externals: [nodeExternals()],
+  entry: "./",
 };
