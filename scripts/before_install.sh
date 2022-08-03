@@ -7,7 +7,7 @@ sudo yum install curl -y
 
 sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
-. ~/.nvm/nvm.sh
+source ~/.nvm/nvm.sh
 
 sudo nvm install --lts
 # Install nodemon
