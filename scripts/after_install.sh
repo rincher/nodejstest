@@ -8,5 +8,3 @@ export NVM_DIR="$HOME/.nvm"
 rm -rf /home/ec2-user/nodejs
 mkdir /home/ec2-user/nodejs
 cd /home/ec2-user/nodejs
-npm init
-npm install
