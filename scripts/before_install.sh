@@ -14,7 +14,6 @@ export NVM_DIR="$HOME/.nvm"
 
 rm -rf $NVM_DIR ~/.npm ~/.bower
 
-nvm install node
 # Install nodemon
 npm install nodemon -g
 
