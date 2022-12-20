@@ -5,7 +5,7 @@ sudo yum update
 
 sudo yum install curl -y
 
-sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash install_nvm.sh
 export HOME="/home/ec2-user/"
 
 export NVM_DIR="$HOME/.nvm"
@@ -14,7 +14,7 @@ export NVM_DIR="$HOME/.nvm"
 
 rm -rf $NVM_DIR ~/.npm ~/.bower
 
-nvm install 16.15.1
+#nvm install 16.15.1
 
 # Install nodemon
 npm install nodemon -g
