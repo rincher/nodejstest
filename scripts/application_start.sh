@@ -7,4 +7,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # Stop all servers and start the server as a daemon
 # forever stopall
-# forever start /home/ubuntu/nodejs/app.js
+forever start /home/ec2-user/nodejs/app.js
